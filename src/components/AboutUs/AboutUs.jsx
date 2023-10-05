@@ -1,4 +1,6 @@
 import "./AboutUs.css"
+import agent1 from "../../img/agent1.png"
+import agent2 from "../../img/agent2.jpg"
 const AboutUs = () => {
     return (
     <>
@@ -12,13 +14,13 @@ const AboutUs = () => {
         <div class="container">
             <h2>Meet Our Team</h2>
             <div class="team-member">
-                <img src="agent1.jpg" alt="Agent 1" />
+                <img src={agent1} alt="Agent 1" />
                 <h3>John Doe</h3>
                 <p>Real Estate Agent</p>
                 <p>With over 10 years of experience, John is dedicated to helping you find the perfect property.</p>
             </div>
             <div class="team-member">
-                <img src="agent2.jpg" alt="Agent 2" />
+                <img src={agent2} alt="Agent 2" />
                 <h3>Jane Smith</h3>
                 <p>Property Consultant</p>
                 <p>Jane specializes in luxury homes and can guide you through the buying process with ease.</p>
